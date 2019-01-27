@@ -1,0 +1,30 @@
+{
+  "name": "dockernodeserver",
+  "version": "1.0.0",
+  "description": "A sample webserver, which can be hosted as a docker container.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhishekshetty/DockerNodeServer.git"
+  },
+  "keywords": [
+    "Docker",
+    "Node",
+    "Express",
+    "REST"
+  ],
+  "author": "AbhishekShetty",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abhishekshetty/DockerNodeServer/issues"
+  },
+  "homepage": "https://github.com/abhishekshetty/DockerNodeServer#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "npm": "^6.7.0"
+  }
+}
